@@ -1,9 +1,9 @@
-print("This program will take two numbers and add, subtract, multiply, and divide them.")
+print("This program will take two numbers and add and subtract them.")
 
-num1 = int(input("Please input a number: " ))
-num2 = int(input("Please input your second number: " ))
+num1 = float(input("Please input your first number: " ))
+num2 = float(input("Please input your second number: " ))
 
-added = num1 + num2
-subtracted = num1 - num2
-print("The added number is: ", added)
-print("The subtracted number is: ", subtracted)
+x = num1 + num2
+y = num1 - num2
+print("The sum of the first and second number is: ", x)
+print("The difference of the first and second number is: ", y)
